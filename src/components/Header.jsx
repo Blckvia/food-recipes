@@ -6,7 +6,7 @@ function Header() {
                     href='!#'
                     className='brand-logo'
                 >
-                    Fortnite Shop
+                    Food Recipes
                 </a>
                 <ul
                     id='nav-mobile'

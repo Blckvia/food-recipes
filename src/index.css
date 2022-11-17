@@ -15,3 +15,20 @@ nav {
   min-height: calc(100vh - 70px - 64px);
   padding: 1.5rem 0;
 }
+
+.github:hover {
+  transform: scale(1.2);
+}
+
+.github {
+  font-size: 16px;
+  font-family: fantasy;
+  display: inline;
+  bottom: 2rem;
+  right: 2rem;
+
+  cursor: pointer;
+  z-index: 5;
+
+  transition: 0.5s;
+}
