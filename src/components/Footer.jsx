@@ -1,6 +1,6 @@
 function Footer() {
     return (
-        <footer className='page-footer cyan lighten-1'>
+        <footer className='page-footer grey darken-2'>
             <div className='footer-copyright'>
                 <div className='container'>
                     © {new Date().getFullYear()} Copyright Text

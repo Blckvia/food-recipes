@@ -1,13 +1,15 @@
+import { Link } from 'react-router-dom';
+
 function Header() {
     return (
-        <nav className='cyan darken-2'>
+        <nav className='grey darken-3'>
             <div className='nav-wrapper'>
-                <a
-                    href='!#'
+                <Link
+                    to='/'
                     className='brand-logo'
                 >
                     Food Recipes
-                </a>
+                </Link>
                 <ul
                     id='nav-mobile'
                     className='right hide-on-med-and-down'
@@ -20,6 +22,18 @@ function Header() {
                 >
                     GitHub
                 </a>
+                <Link
+                    className='contacts right'
+                    to='/contacts'
+                >
+                    Contacts
+                </Link>
+                <Link
+                    className='about right'
+                    to='/about'
+                >
+                    About
+                </Link>
             </div>
         </nav>
     );

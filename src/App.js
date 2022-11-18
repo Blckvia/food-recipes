@@ -10,9 +10,9 @@ import NotFound from './pages/NotFound';
 function App() {
     return (
         <>
-            <Header />
-            <main className='container content'>
-                <BrowserRouter>
+            <BrowserRouter>
+                <Header />
+                <main className='container content'>
                     <Routes>
                         <Route
                             path='/'
@@ -31,9 +31,9 @@ function App() {
                             element={<NotFound />}
                         />
                     </Routes>
-                </BrowserRouter>
-            </main>
-            <Footer />
+                </main>
+                <Footer />
+            </BrowserRouter>
         </>
     );
 }

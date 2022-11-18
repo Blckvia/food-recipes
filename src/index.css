@@ -16,11 +16,16 @@ nav {
   padding: 1.5rem 0;
 }
 
-.github:hover {
+.github:hover,
+.contacts:hover,
+.about:hover,
+.btn:hover {
   transform: scale(1.2);
 }
 
-.github {
+.github,
+.contacts,
+.about{
   font-size: 16px;
   font-family: fantasy;
   display: inline;
@@ -29,6 +34,52 @@ nav {
 
   cursor: pointer;
   z-index: 5;
+  padding-right: 15px;
 
   transition: 0.5s;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-content {
+  flex-grow: 1;
+}
+
+.btn {
+  bottom: 2rem;
+  right: 2rem;
+
+  cursor: pointer;
+  z-index: 5;
+
+  transition: 0.5s;
+
+  height: 35px;
+	border-radius: 30px;
+	color: #FFFFFF;
+	/* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+  background: linear-gradient(-45deg, rgb(48, 51, 64), #273c2a, #205429, #19d4a9);
+	background-size: 400% 400%;
+	animation: animate_gradient 5s ease infinite;
+}
+
+@keyframes animate_gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
