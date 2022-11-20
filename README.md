@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Github pages: 
-[Food Recipes Demo](https://blckvia.github.io/food-recipes/contacts)
+[Food Recipes Demo](https://blckvia.github.io/food-recipes)
 
 
 ## Available Scripts
